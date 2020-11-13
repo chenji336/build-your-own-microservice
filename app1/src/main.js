@@ -18,6 +18,7 @@ function render() {
   })
 }
 
+// !window.isMicroService && render()
 render()
 
 export function mount(props) {

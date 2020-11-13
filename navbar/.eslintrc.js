@@ -4,7 +4,7 @@ module.exports = {
     node: true,
     es6: true, // 否则使用 es6 的会报错
   },
-  extends: ["plugin:vue/essential", "eslint:recommended", "@vue/prettier"],
+  extends: ["plugin:vue/essential", "eslint:recommended"],
   parserOptions: {
     parser: "babel-eslint"
   },
