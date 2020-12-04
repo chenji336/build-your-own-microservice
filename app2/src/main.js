@@ -5,10 +5,9 @@ import App from './App.vue';
 import buildRouter from './router';
 
 Vue.config.productionTip = false;
-
+Vue.use(Router)
 
 function render() {
-  Vue.use(Router)
   new Vue({
     el: "#sub",
     router: buildRouter(),

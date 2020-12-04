@@ -6,9 +6,9 @@ import buildRouter from "./router"
 import store from "./store"
 
 Vue.config.productionTip = false // 开发环境vue会有tip提示，关闭掉
+Vue.use(Router)
 
 function render() {
-  Vue.use(Router)
   const router = buildRouter()
   new Vue({
     el: "#sub",
